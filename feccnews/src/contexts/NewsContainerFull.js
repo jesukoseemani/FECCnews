@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import NewsBox from '../components/NewsBox';
-import blog from '../images/blog-5.jpg';
+import clane from '../images/clane.jpeg';
 
 const NewsContainerFull = () => {
   return (
@@ -10,7 +10,7 @@ const NewsContainerFull = () => {
         <NewsBox />
       </StyledNewsContainerContent>
       <StyledNewsContainerImageDiv>
-        <StyledNewsContainerImage src={blog} alt="" />
+        <StyledNewsContainerImage src={clane} alt="" />
       </StyledNewsContainerImageDiv>
     </StyledNewsContainer>
   );

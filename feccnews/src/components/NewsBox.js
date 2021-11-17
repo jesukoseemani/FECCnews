@@ -1,23 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 const NewsBox = () => {
   return (
     <StyledNewsBox>
-      <StyledNewsBoxheading>Lorem ipsum dolor sit.</StyledNewsBoxheading>
+      <StyledNewsBoxheading>
+        We're changing the way people get news and get information
+      </StyledNewsBoxheading>
 
       <StyledBoxNewsContent>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam a iure
-        modi ullam libero nulla itaque! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Blanditiis tenetur hic ipsum?
+        This is powered by clane and Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quas rem harum earum ipsam, cupiditate neque delectus
+        laboriosam hic doloremque nemo.
       </StyledBoxNewsContent>
 
       <StyledNewsBoxFooter>
-        <StyledParagraph>May 2oth, 2020</StyledParagraph>
-        <Link to="/news/2">
-          <StyledLink>Read More..</StyledLink>
-        </Link>
+        <StyledParagraph>3 mins ago</StyledParagraph>
       </StyledNewsBoxFooter>
     </StyledNewsBox>
   );

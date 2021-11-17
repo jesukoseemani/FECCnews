@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import CommentBox from '../components/CommentBox';
 import { format, parseISO } from 'date-fns';
@@ -21,8 +21,6 @@ const NewsDetailsContext = ({ filteredData, comments, setComments, id }) => {
 
     setComments(...comments, data);
   };
-
-  commentHandler();
 
   return (
     <StyledNewsDetailsContext>
